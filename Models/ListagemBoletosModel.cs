@@ -7,9 +7,9 @@ namespace SdmBoletos.Models
 {
     public class ListagemBoletosModel
     {
-        public string AgenciaBeneficiario { get; set; } =  "576";
-        //public string ContaBeneficiario { get; set; } = "2468" ;
-        public string ContaBeneficiario { get; set; } = "3196";
+        public string AgenciaBeneficiario { get; set; } =  "9988";
+        //public string ContaBeneficiario { get; set; } = "336644" ;
+        public string ContaBeneficiario { get; set; } = "22550";
         public string TokenAcesso { get; set; }
     }
 }
