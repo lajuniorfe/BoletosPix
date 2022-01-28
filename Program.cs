@@ -21,7 +21,7 @@ namespace SdmBoletos
                 .ConfigureWebHostDefaults(webBuilder =>
                 {
                     webBuilder.UseStartup<Startup>()
-                    .UseUrls("http://10.1.1.72:6801")
+                    .UseUrls("localhost:6801")
                     .UseKestrel();
                 });
     }
